@@ -1,0 +1,22 @@
+.profile {
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto !important;
+  margin-top: 60px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  text-align: center;
+}
+
+.profile__avatar {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.profile__email,
+.profile__link
+ {
+  color: #EF6C00;
+}
