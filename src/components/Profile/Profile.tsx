@@ -9,8 +9,7 @@ interface IProfileProps {
 }
 
 export const Profile = ({ profile }: IProfileProps) => {
-  const ghProfile = profile;
-  const {login, email, html_url, avatar_url} = ghProfile;
+  const {login, email, html_url, avatar_url} = profile;
 
   return(
     <div className="profile">
